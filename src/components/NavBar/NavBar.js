@@ -58,7 +58,7 @@ class NavBar extends Component {
         </Router>
         <MDBContainer id="header">
         <MDBView className="view"
-         src={'images/hero-image.png'} fixed>
+         src={'https://i.imgur.com/kgr1kd2.png'} fixed>
         </MDBView>
     </MDBContainer>
         
