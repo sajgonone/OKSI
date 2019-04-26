@@ -1,0 +1,19 @@
+a { 
+    color: #FFF;
+    font-size: 18px;
+    font-family: monospace;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    border-bottom: 2px solid #18ffff;
+    color: #18ffff;
+}
+    .view {
+      background-size: 100%!important;
+    }
+
+    .jeden {
+        text-align: center;
+    }
