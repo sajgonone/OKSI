@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import { MDBNavbar, MDBNavbarNav, MDBNavItem, MDBNavbarToggler, MDBCollapse, MDBView, MDBContainer } from "mdbreact";
+import { MDBNavbar, MDBNavbarNav, MDBNavItem, MDBNavbarToggler, MDBCollapse, MDBView, MDBContainer, MDBMask, MDBRow, MDBCol } from "mdbreact";
 
 class NavBar extends Component {
   state = {
@@ -57,6 +57,14 @@ class NavBar extends Component {
           </div>
         </Router>
         <MDBView src={`https://i.imgur.com/hcTw1M5.png`} fixed>
+          <MDBMask className="rgba-white-light d-flex justify-content-center align-items-center">
+            <MDBContainer>
+              <MDBRow>
+                <MDBCol md="12" className="mb-4 white-text text-center">
+                </MDBCol>
+              </MDBRow>
+            </MDBContainer>
+          </MDBMask>
         </MDBView>
         
       </>
