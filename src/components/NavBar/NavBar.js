@@ -56,11 +56,8 @@ class NavBar extends Component {
             {this.state.collapsed && overlay}
           </div>
         </Router>
-        <MDBContainer id="header">
-        <MDBView className="view"
-         src={'https://i.imgur.com/kgr1kd2.png'} fixed>
+        <MDBView src={`https://i.imgur.com/hcTw1M5.png`} fixed>
         </MDBView>
-    </MDBContainer>
         
       </>
     );
