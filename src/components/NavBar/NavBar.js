@@ -56,11 +56,12 @@ class NavBar extends Component {
             {this.state.collapsed && overlay}
           </div>
         </Router>
-        <MDBView src={`https://i.imgur.com/hcTw1M5.png`} fixed>
+        <MDBView src="https://mdbootstrap.com/img/Photos/Slides/img%20(88).jpg" alt="" fixed>
           <MDBMask className="rgba-white-light d-flex justify-content-center align-items-center">
             <MDBContainer>
               <MDBRow>
                 <MDBCol md="12" className="mb-4 white-text text-center">
+                
                 </MDBCol>
               </MDBRow>
             </MDBContainer>
